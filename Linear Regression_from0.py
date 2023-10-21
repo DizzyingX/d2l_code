@@ -84,8 +84,8 @@ def sgd(params, lr, batch_size):  #@save
 #---------------线性回归具体实现---------------#
 
 # true_w和true_b为真实的参数
-true_w = torch.tensor([2, -3.4])
-true_b = 4.2
+true_w = torch.tensor([5.6, -2.1])
+true_b = 3.7
 
 # features为1000行2列的矩阵， labels为1000行的列向量，
 features, labels = synthetic_data(true_w, true_b, 1000)
